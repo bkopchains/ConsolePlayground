@@ -15,6 +15,7 @@
             int[] dx = new int[4] { 0, 0, 1, -1 };
             int[] dy = new int[4] { 1, -1, 0, 0 };
 
+
             PriorityQueue<StepState, int> queue = new PriorityQueue<StepState, int>();
             //trying to be too smart here - stop reading the stupid comments!!!
             //Dictionary<int[], int> visited = new Dictionary<int[], int>();

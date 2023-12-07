@@ -122,6 +122,7 @@ namespace Console_Playground
             {
                 for (int j = 0; j < grid[0].Length; j++)
                 {
+                    //find the starting point
                     if (grid[i][j] == '*')
                     {
                         grid[i][j] = 'X'; // mark as visited
@@ -130,6 +131,13 @@ namespace Console_Playground
                     }
                 }
             }
+            int[][] directions = new int[4][] {
+                new int[2]{0,1},
+                new int[2]{0,1},
+                new int[2]{0,1},
+                new int[2]{0,1}
+            };
+            int.Parse('c'.ToString());
             int steps = 0;
             while (queue.Count > 0)
             {
