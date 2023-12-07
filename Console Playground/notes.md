@@ -30,6 +30,10 @@ DFS
 - think going down each path in depth order
 - generally recursive function
 
+Prefix Sum
+- Iterate over a list adding values each time
+- use for grouping a list into ranges? 
+
 Funky Qs
 -
 good usings
