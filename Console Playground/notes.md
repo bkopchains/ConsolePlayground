@@ -32,6 +32,20 @@ DFS
 
 Funky Qs
 -
+good usings
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+class Solution {
+  public void Whatever() {
+    char c = '1';
+    int i = c - '0'; // i == 1;
+  }
+}
+```
+
 pow(x,n):
 ```C#
 if (n%2 > 0) { // is odd
